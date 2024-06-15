@@ -26,6 +26,11 @@
      // attachEvent()
     // jQuery - on
 
+
+     // document.getElementById('owl').onclick = function(e){
+    //    console.log(e)
+    // }
+    // stuy these in ur inspect, then e attributes
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
@@ -35,6 +40,10 @@
     //     console.log("clicked inside the ul");
     // }, false)
 
+    // DEFAULT behaviour = false for bubbling (child first)
+    // true for capture, print parent first
+    //  e.stopPropagation() stop it to go to parent
+    
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
     //     e.stopPropagation()
